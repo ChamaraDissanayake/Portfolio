@@ -1,0 +1,26 @@
+// .content-wrapper {
+//     margin: 1rem;
+// }
+
+// app.component.scss or your specific component stylesheet
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030; // Ensures the navbar is above other elements
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+    margin: 1rem;
+    transition: margin-top 0.3s; // Smooth transition for content shift
+}
+
+.content-shifted {
+    margin-top: 200px; // Adjust this value based on the expanded height of your navbar
+}
+
+.section-styles{
+    padding-top: 56px; // Adjust based on your navbar height
+}

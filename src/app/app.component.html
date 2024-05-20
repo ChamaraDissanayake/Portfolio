@@ -1,2 +1,20 @@
-<app-navbar></app-navbar>
-<app-about></app-about>
+<div class="navbar-fixed-top" #navbar>
+    <app-navbar></app-navbar>
+</div>
+<div class="content" #content>
+    <section id="home" class="section-styles">
+        <app-home></app-home>
+    </section>
+    <section id="about" class="section-styles">
+        <app-about></app-about>
+    </section>
+    <section id="projects" class="section-styles">
+        <app-projects></app-projects>
+    </section>
+    <section id="work" class="section-styles">
+        <app-work></app-work>
+    </section>
+    <section id="resume" class="section-styles">
+        <app-resume></app-resume>
+    </section>
+</div>
